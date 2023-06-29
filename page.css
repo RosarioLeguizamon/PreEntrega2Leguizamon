@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****** Inicio Equipo *****/
+.sectionEquipo{
+        height: 500px;
+        width: 100%;
+        /*background-color: #f1d7bd ;*/
+        display: flex;
+        justify-content: left;
+        align-items:center;
+    }
+    
+    .titulo1 {
+        height: 400px;
+        margin-left: 30px;
+        padding-top: 30px;
+        width: 55%;
+        background-color: #698faa ;
+        
+        
+    }
+    
+    .titulo1 h2{
+        width: 60%;
+        padding: 10px;
+        color: black;
+        font-size: 30px;
+        text-align: right;
+        font-family: 'Playfair Display', serif;
+        margin-left: 60px;
+    }
+    
+    .titulo1 p {
+        font-size: 20px;
+        margin-left: 40px;
+        padding: 20px;
+        height: 300px;
+        text-align: left;
+    }
+    
+    .titulo1 p strong{
+        text-transform: none;
+    }
+
+    .videoPresentacion{
+        width: 60%;
+        padding-top: 10px;
+        padding-right: 150px;
+        margin-left: 40px;
+    }
+/****** Fin Equipo *****/
+
+/***** Inicio Historias *****/
+.tamanocarrusel{
+    height: 600px;
+    width: 100%;
+}
+/***** Fin Historias *****/
+
+
+/***** Inicio Se parte *****/
+
+.container-fluid{
+    padding: 40px;
+}
+
+
+.botonSeparte a {
+    text-decoration: none;
+    background-color: #5c9090;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+/***** Fin Se parte *****/
+
+
+/***** Inicio Contacto *****/
+.maincontacto{
+    height: 500px;
+    width: 100%;
+    /*background-color: #f1d7bd ;*/
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+
+/***** Fin Contacto *****/
