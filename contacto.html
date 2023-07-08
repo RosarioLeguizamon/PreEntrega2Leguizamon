@@ -15,58 +15,70 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#"></a>
+    <!-- Barra de navegacion inicio -->
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">🤍 Zaguates</a>
 
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="equipo.html">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="historias.html">Historias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="separte.html">Se parte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="equipo.html">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historias.html">Historias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="separte.html">Se parte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Barra de navegacion fin -->
+    <!---------------Container------------------->
+    <div class="container p-3 my-3 border">Contacto</div>
+    <!---------------Container------------------->
 
-    </header>
 
-    <!---------------C------------------->
+    <div class="contenedorContacto">
+        <div class="box box1">
+            <h3>Dejanos tu mensaje</h3>
+            <form action="enviar.php" method="post" enctype="text/plain">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"> <br>
 
-    <div class="container p-3 my-3 border">Se parte</div>
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="mail" placeholder="Ingresa tu mail"> <br>
 
-    <!---------------C------------------->
+                <label for="mensaje">Mensaje</label>
+                <textarea name="Mensaje" id="mensaje" cols="30" rows="10"
+                    placeholder="Ingresa tu mensaje"></textarea><br>
 
-    <main class="maincontacto">
-
-        <div class="ubicacion">
-            <h3>Ubicacion </h3>
-            <nav>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15712.17018571731!2d-84.1567715!3d10.0955998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fc7b3a173367%3A0x762d9425d4760ad5!2sTerritorio%20de%20Zaguates!5e0!3m2!1ses!2sar!4v1685209907066!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="box box2">
+            <h3>Ubicación</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15712.17018571731!2d-84.1567715!3d10.0955998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fc7b3a173367%3A0x762d9425d4760ad5!2sTerritorio%20de%20Zaguates!5e0!3m2!1ses!2sar!4v1685209907066!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </nav>
         </div>
-    </main>
+    </div>
+    <br>
 
 
 
@@ -85,6 +97,7 @@
     <a href="#" class="subir">
         <i class="fa-solid fa-chevron-up"></i>
     </a>
+
 
 
 

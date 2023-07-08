@@ -5,22 +5,23 @@
     box-sizing: border-box;
 }
 
-/*Barra de navegación Inicio*/
 .navbar{
-    background-color: #fff;
-    height: 50px;
-    width: 100%;
-    padding: 15px;
-    font-size: 15px;
-    text-align:left;
-    background-color: #5c9090;
+    background-color: #5c9090 ;
     
 }
 
-/*Barra de navegación Fin*/
+.nav-link:hover{
+    color: #fff !important ;
 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
 /*Main inicio*/
-
 .jumbotron{
     background-image: url(imag/inicio.png);
     background-size: cover;
@@ -33,47 +34,61 @@
 .jumbotron h1{
         color: black;
         font-family: 'Playfair Display', serif;
-        font-size: 80px;
+        font-size: 65px;
         
     }
     
 .jumbotron p {
         margin: 15px;
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 5px;
     }
-    
     /*Main Fin*/
 
+
     /*Footer*/
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: #edcabd;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        justify-content: center;
+        /*display: flex;
+        flex-flow: row wrap;*/
+        margin-top: auto;
+    }
+    footer p{
+        margin-bottom: 20px ;
+    }
 
-footer{
-    background-color: #edcabd;
-    color: #fff;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: center;
+    footer i{
+        color: #5c9090;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
     
+    .redes{
+        color: #fff;
+    }
     
-}
-
-.redes{
-    color: #fff;
+    .subir{
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        background-color: #efe9db;
+        padding: 15px;
+        color: #555555;
+    }
     
+    /*Fin footer*/
 
-}
 
-.subir{
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    background-color: #efe9db;
-    padding: 15px;
-    color: #555555;
-}
 
-/*Fin footer*/
+
+
+
+
